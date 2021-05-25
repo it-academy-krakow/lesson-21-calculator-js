@@ -1,0 +1,97 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  background: #4256af;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input {
+  outline: none;
+  border-radius: 10px;
+  border: 0;
+}
+
+.container {
+  width: 600px;
+  padding: 10px;
+}
+
+.container .fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container .field {
+  display: block;
+  width: 50%;
+  padding: 10px 20px;
+  font-size: 2rem;
+}
+
+.container .field:first-child {
+  margin-right: 10px;
+}
+
+.container .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.container .btn {
+  width: 25%;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.container .btn:last-child {
+  margin-right: 0;
+}
+
+.container .btn:hover {
+  opacity: 0.5;
+}
+
+.container .result-container {
+  color: white;
+  font-family: Arial;
+  font-size: 3rem;
+  background-color: rgba(24, 30, 83, 0.3);
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .result-container #result-value {
+  color: yellow;
+}
+/*# sourceMappingURL=styles.css.map */
